@@ -1,0 +1,118 @@
+/* font for style  */
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Josefin+Sans&family=Noto+Sans+Bengali:wght@300;400&family=Poppins:wght@400;500&display=swap');
+
+
+/* common body style specially fonts  */
+body {
+    font-family: 'Galada', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+hr {
+    background-color: #F7CD2E;
+    height: 2px;
+}
+
+
+/* top banner style */
+
+.top-banner {
+    width: 100%;
+    height: 700px;
+
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+
+}
+
+.banner {
+    padding-top: 220px;
+    padding-left: 50px;
+    width: 500px;
+
+    border-radius: 20%;
+    background-color: #242b2e6f;
+}
+
+.banner h1 {
+    color: #F7CD2E;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.banner span {
+    color: #E5D68A;
+    font-size: 1.3em;
+}
+
+.banner p {
+    color: #CAD5E2;
+    font-size: 1.35em;
+    font-weight: bold;
+}
+
+.banner-button {
+    margin-top: 50px;
+    margin-left: 220px;
+    padding: 30px;
+    background-color: #EDC126;
+    border: none;
+    border-radius: 48%;
+}
+
+.banner-button:hover {
+    border-bottom: 3px solid #B4161B;
+    background-color: #F7CD2E;
+    box-shadow: 0 12px 16px 0 #edc226f7, 0 17px 50px 0 #f7cc2e97;
+    cursor: -webkit-grabbing;
+
+
+}
+
+.fa-hands-praying {
+    font-size: xx-large;
+    color: #B4161B;
+}
+
+
+
+/* media quari for responsiveness  */
+@media only screen and (max-width:688px) {
+
+    /* top banner section start */
+    .top-banner {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .banner {
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 50%;
+        font-size: 0.52em;
+    }
+
+    .banner h1 {
+        font-size: small;
+
+    }
+
+    .banner-button {
+        padding: 15px;
+    }
+
+    .fa-hands-praying {
+        font-size: small;
+
+    }
+
+    /* top banner section end */
+}
