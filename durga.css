@@ -10,12 +10,21 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #242B2E;
+    background-attachment: fixed;
 
 }
 
 hr {
     background-color: #F7CD2E;
     height: 2px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+
+
 }
 
 
@@ -80,6 +89,69 @@ hr {
     font-size: xx-large;
     color: #B4161B;
 }
+
+/* main parts style starts */
+/* -----------------------------------------
+-------------------------------------------------- */
+/* vcads sections style */
+.vcards {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 2px dotted #B4161B; */
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+
+    flex-direction: row-reverse;
+    /* background-color: #b0d0f59d; */
+
+}
+
+.vcard {
+    display: flex;
+    padding: 10px;
+    width: 50%;
+
+    /* intial border */
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 #edc226f7, 0 17px 50px 0 #f7cc2e97;
+}
+
+.intial {
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+.vcard-info {
+
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.vcard-info h1 {
+    color: #E21717;
+}
+
+.vcard-info p {
+    color: #1C8D73;
+    font-weight: bold;
+}
+
+.vcard-img {
+    /* border: 2px solid red; */
+    padding: 10px;
+    text-align: justify;
+}
+
+.vcard .vcard-img img {
+    height: 280px;
+    width: 230px;
+    border-radius: 15px;
+    box-shadow: 0 12px 16px 0 #edc226f7, 0 17px 50px 0 #f7cc2eef;
+}
+
 
 
 
